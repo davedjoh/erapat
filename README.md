@@ -2,8 +2,9 @@
 
 ### About
 
-e-rapat v.0.2 is application for meeting administration in research & dev center, ministry of transportation republic of indonesia
+E-RAPAT v.0.2 is application (Updates) for meeting administration in research & development center, Ministry of Transportation Republic of Indonesia
 
-### Status
+### Captured
 
-e-rapat v.0.2 is still on development mode.
+![Dashboard](captured/month.png "This is the Month")
+![Dashboard](captured/week.png "This is the Week")
