@@ -11,7 +11,7 @@ class Noauth implements FilterInterface
     public function before(RequestInterface $request)
     {
         // Do something here
-        if (session()->get('isLoggedIn')) {
+        if (session()->get('is_active')) {
             return redirect()->to('/dashboard');
         }
     }
