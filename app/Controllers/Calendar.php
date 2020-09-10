@@ -4,9 +4,18 @@ namespace App\Controllers;
 
 class Calendar extends BaseController
 {
+    public function __construct()
+    {
+        helper(['form', 'calendar_helper']);
+    }
+
     public function index()
     {
-        echo 'Calendar';
+        $data = array('title' => 'Pengaturan Tampilan kalender');
+
+        echo view('layouts/template_calendar/template_calendar_header', $data);
+        echo view('layouts/calendar/index', $data);
+        echo view('layouts/template_calendar/template_calendar_footer', $data);
     }
 
     public function calendar_api()
