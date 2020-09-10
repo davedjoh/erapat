@@ -6,11 +6,11 @@ class Frontpage extends BaseController
 {
     public function index()
     {
-        return view('frontpages');
-    }
+        $data = array('title' => 'E-RAPAT Applications');
 
-    public function calendarapi()
-    {
-        echo 'hello worlds';
+        echo view('layouts/template_public/template_public_header', $data);
+        echo view('layouts/template_public/template_public_navbar', $data);
+        echo view('frontpages');
+        // echo view('layouts/template_public/template_public_footer', $data);
     }
 }

@@ -42,7 +42,7 @@ function get_dropdown_media_offline()
 function get_dropdown_esalon_2()
 {
     $db = \Config\Database::connect();
-    $query = $db->query('SELECT * FROM view_user_department');
+    $query = $db->query('SELECT * FROM meeting_department');
     foreach ($query->getResultArray() as $d) {
         echo "<option value=" . $d['id'] . ">" . $d['department_name'] . "</option>";
     }

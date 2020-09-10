@@ -1,4 +1,4 @@
-## e-rapat v.0.2
+## E-RAPAT
 
 ### About
 

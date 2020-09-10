@@ -1,0 +1,24 @@
+.login {
+  margin-top: 6rem !important;
+}
+
+a {
+  color: #4e73df;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.card-customs {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #e3e6f0;
+  border-radius: 0.35rem;
+  box-shadow: #4e73df;
+}
