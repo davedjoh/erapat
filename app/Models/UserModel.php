@@ -6,13 +6,10 @@ use CodeIgniter\Model;
 
 class UserModel extends Model
 {
-    protected $table = 'users';
-    protected $allowedFields = ['firstname', 'lastname', 'email', 'password', 'updated_at'];
+    protected $table = 'meeting_users';
+    protected $allowedFields = ['zoomid', 'name', 'email', 'image', 'password', 'role_id', 'is_active', 'sub_department_id', 'date_created', 'date_updated'];
     protected $beforeInsert = ['beforeInsert'];
     protected $beforeUpdate = ['beforeUpdate'];
-
-
-
 
     protected function beforeInsert(array $data)
     {
